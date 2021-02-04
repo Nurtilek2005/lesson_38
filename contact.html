@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Katana</title>
+</head>
+
+<body>
+
+  <audio src="media/audio.mp3" id="audio"></audio>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container header__container">
+        <div class="logo">
+          <div class="logo__name">
+            Dai<span class="logo__name_colored">Katana</span>
+          </div>
+          <img src="img/shape.png" alt="" class="logo__img">
+        </div>
+        <nav class="top-nav">
+          <ul class="top-nav__list">
+            <li class="top-nav__item">
+              <a href="index.html" class="top-nav__link">Главная</a>
+            </li>
+            <li class="top-nav__item ">
+              <a href="works.html" class="top-nav__link">Наши работы</a>
+            </li>
+            <li class="top-nav__item">
+              <a href="blog.html" class="top-nav__link">Новости</a>
+            </li>
+            <li class="top-nav__item top-nav__item_active">
+              <a href="contact.html" class="top-nav__link btn top-nav__link_btn">Контакты</a>
+            </li>
+          </ul>
+          <button class="hamburger hamburger--collapse" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="main bg-main">
+      <div class="container">
+        <section class="info text-light">
+          <div class="container info__container">
+            <h1 class="info__title text-light">Наши контакты</h1>
+            <p class="info__desc">
+              We have a solid track record of delivering great results - on time and on budget. Here are just a few of
+              our
+              recent wins..
+            </p>
+          </div>
+        </section>
+
+        <div class="contact">
+          <form action="#" class="contact__form">
+            <div class="form-group-inline">
+              <input type="text" class="form-control" placeholder="Ваше имя">
+              <input type="text" class="form-control" placeholder="Ваше Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Ваше сообщение"></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-light">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="main main-contact">
+      <div class="container">
+        <h1 class="main__title">Наши контакты</h1>
+        <ul class="email__list reset-list">
+          <li class="email__item">
+            <h3 class="email__title">Глава отдела</h3>
+            <a href="mailto:hello@daikatana.com" class="email__link">hello@daikatana.com</a>
+          </li>
+          <li class="email__item">
+            <h3 class="email__title">Тех. отдел</h3>
+            <a href="mailto:work@daikatana.com" class="email__link">work@daikatana.com</a>
+          </li>
+          <li class="email__item">
+            <h3 class="email__title">Отдел HR</h3>
+            <a href="mailto:jobs@daikatana.com" class="email__link">jobs@daikatana.com</a>
+          </li>
+        </ul>
+
+        <div class="location">
+          <h2 class="location__main-title">Наши офисы</h2>
+          <ul class="location__list reset-list">
+            <li class="location__item">
+              <h3 class="location__title">Бишкек</h3>
+              <p class="location__place">
+                г. Бишкеке пр. Чуй 225
+              </p>
+            </li>
+            <li class="location__item">
+              <h3 class="location__title">Иссык - Куль</h3>
+              <p class="location__place">
+                г. Каракол пр. Иссыкульсая 12 напротив Акимиата
+              </p>
+            </li>
+            <li class="location__item">
+              <h3 class="location__title">Ош</h3>
+              <p class="location__place">
+                г. Ош ул. Ошская 22 напротив Акимиата
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="map"></div>
+
+
+    <section class="hero-bottom">
+      <div class="converse">
+        <h3 class="converse__title">Хотите начать разговор?</h3>
+        <a href="#" class="btn">Позвоните нам</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="logo">
+          <div class="logo__name">
+            Dai<span class="logo__name_colored">Katana</span>
+          </div>
+        </div>
+
+        <nav class="bottom-nav">
+          <ul class="bottom-nav__list">
+            <li class="bottom-nav__item">
+              <a href="#" class="bottom-nav__link">Новости</a>
+            </li>
+            <li class="bottom-nav__item">
+              <a href="#" class="bottom-nav__link">Twitter</a>
+            </li>
+            <li class="bottom-nav__item">
+              <a href="#" class="bottom-nav__link">Facebook</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+
+  </div>
+
+
+  <div class="back-drop"></div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/lightgallery-all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
